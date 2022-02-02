@@ -5,12 +5,7 @@ font-family: 'Rubik', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Space Mono', monospace;
  */
-/*
-html,body{
-    height:100%;
-    margin:0;
-    padding:0;
-} */
+
 .overlay {
   opacity: 1;
   position: fixed;
@@ -21,10 +16,10 @@ html,body{
   display: table;
   z-index: 100000;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-animation: splash 2s forwards;
+  -webkit-animation: splash 3s forwards;
   -moz-animation: splash 5s forwards;
   -ms-animation: splash 5s forwards;
-  animation: splash 2s forwards;
+  animation: splash 3s forwards;
 }
 .overlay-inner {
   display: table-cell;
@@ -38,7 +33,7 @@ html,body{
   text-align: center;
   font-size: 40px;
   border-radius: 10px;
-  background: #fff;
+  /* background: #fff; */
   display: inline-block;
   vertical-align: middle;
   width: 50%;
@@ -245,12 +240,17 @@ body {
   /* background: -webkit-linear-gradient(top left, #766db6, #fa9085);
   background: -moz-linear-gradient(top left, #766db6, #fa9085);
   background: linear-gradient(to bottom right, #766db6, #fa9085); */
+  background-image: url("https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1955&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
 h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
+  color: white;
 }
 
 a {
@@ -275,7 +275,7 @@ img.img-circle {
 .card-blue,
 .card-blue-one,
 .card-blue-two {
-  background-color: rgb(36, 110, 185);
+  background-color: rgb(207, 159, 119);
   padding: 24px;
   margin: 24px 0px;
   border-radius: 4px;
